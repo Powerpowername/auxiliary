@@ -11,6 +11,6 @@ int main()
 {
     auxi::clock::blockClock clk;
     int a = 1;
-    clk.untilTime(1500,callback,1,1);
+    clk.untilTime(1000,callback,1,1);
     return 0;
 }
